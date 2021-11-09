@@ -1,17 +1,20 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    kata00.py                                          :+:      :+:    :+:    #
+#    kata01.py                                          :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: fmonbeig <fmonbeig@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/11/08 18:45:21 by fmonbeig          #+#    #+#              #
-#    Updated: 2021/11/08 18:54:46 by fmonbeig         ###   ########.fr        #
+#    Created: 2021/11/09 10:52:18 by fmonbeig          #+#    #+#              #
+#    Updated: 2021/11/09 11:10:51 by fmonbeig         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-import string
+languages = {
+'Python': 'Guido van Rossum',
+'Ruby': 'Yukihiro Matsumoto',
+'PHP': 'Rasmus Lerdorf',
+}
 
-t = (19,42,21)
-
-print("The 3 numbers are :", t[0], t[1], t[2])
+for x in languages:
+        print(x, "was created by", languages[x])
